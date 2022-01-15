@@ -1,3 +1,4 @@
-<select (focus)="fetchData() " name="{{type}}" id="{{type}}">
+<select name="{{type}}" id="{{type}}">
     <option value="Choose a {{type}}">Choose a {{type}}</option>
+    <option *ngFor="let country of countries">{{country}}</option>
 </select>
