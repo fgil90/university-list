@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DataHandlerService } from './services/data-handler.service';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'University List';
-  countries = new Set();
-  universities = new Set();
+  dataHandler = new DataHandlerService();
+  selectedCountry: string = 'teste';
 
+  constructor() {
+    this.dataHandler.fetchCountryData();
+  }
+
+  
 }

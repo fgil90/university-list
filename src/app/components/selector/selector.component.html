@@ -1,4 +1,4 @@
-<select name="{{type}}" id="{{type}}">
+<select (change)="onChange($event)" name="{{type}}" id="{{type}}">
     <option value="Choose a {{type}}">Choose a {{type}}</option>
-    <option *ngFor="let country of countries">{{country}}</option>
+    <option *ngFor="let option of options">{{option}}</option>
 </select>

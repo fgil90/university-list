@@ -1,8 +1,15 @@
 <div class="container">
-
-  <h1>{{title}}</h1>
+  <h1>{{ title }}</h1>
   <form action="">
-    <app-selector type="country"></app-selector>
-    <app-selector type="university"></app-selector>
+    <app-selector
+      [update]="dataHandler.setCountry"
+      [options]="dataHandler.countries"
+      type="country"
+    ></app-selector>
+    <app-selector
+      *ngIf="dataHandler.selectedCountry"
+      [options]="dataHandler.universities"
+      type="university"
+    ></app-selector>
   </form>
 </div>
