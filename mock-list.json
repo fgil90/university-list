@@ -1,0 +1,90 @@
+[
+  {
+    "country": "United Kingdom",
+    "domains": ["middlesbro.ac.uk", "mbro.ac.uk"],
+    "name": "Middlesbrough College",
+    "state-province": null,
+    "web_pages": ["https://www.mbro.ac.uk/"],
+    "alpha_two_code": "GB"
+  },
+  {
+    "country": "United States",
+    "domains": ["middlesexcc.edu"],
+    "name": "Middlesex County College",
+    "state-province": null,
+    "web_pages": ["http://www.middlesexcc.edu"],
+    "alpha_two_code": "US"
+  },
+  {
+    "country": "United States",
+    "domains": ["middlesex.mass.edu"],
+    "name": "Middlesex Community College",
+    "state-province": null,
+    "web_pages": ["http://www.middlesex.mass.edu"],
+    "alpha_two_code": "US"
+  },
+  {
+    "country": "United Kingdom",
+    "domains": ["mdx.ac.uk"],
+    "name": "Middlesex University",
+    "state-province": null,
+    "web_pages": ["http://www.mdx.ac.uk/"],
+    "alpha_two_code": "GB"
+  },
+  {
+    "country": "Kuwait",
+    "domains": ["aum.edu.kw"],
+    "name": "American University of Middle East",
+    "state-province": null,
+    "web_pages": ["http://www.aum.edu.kw/"],
+    "alpha_two_code": "KW"
+  },
+  {
+    "country": "United States",
+    "domains": ["middlebury.edu"],
+    "name": "Middlebury College",
+    "state-province": null,
+    "web_pages": ["http://www.middlebury.edu/"],
+    "alpha_two_code": "US"
+  },
+  {
+    "country": "Kuwait",
+    "domains": ["aum.edu.kw"],
+    "name": "American University of Middle East",
+    "state-province": null,
+    "web_pages": ["http://www.aum.edu.kw/"],
+    "alpha_two_code": "KW"
+  },
+  {
+    "country": "United States",
+    "domains": ["mtsu.edu"],
+    "name": "Middle Tennessee State University",
+    "state-province": null,
+    "web_pages": ["http://www.mtsu.edu/"],
+    "alpha_two_code": "US"
+  },
+  {
+    "country": "United States",
+    "domains": ["mga.edu"],
+    "name": "Middle Georgia State College",
+    "state-province": null,
+    "web_pages": ["http://www.mga.edu/"],
+    "alpha_two_code": "US"
+  },
+  {
+    "country": "Jordan",
+    "domains": ["meu.edu.jo"],
+    "name": "Middle East University",
+    "state-province": null,
+    "web_pages": ["http://www.meu.edu.jo/"],
+    "alpha_two_code": "JO"
+  },
+  {
+    "country": "Turkey",
+    "domains": ["metu.edu.tr"],
+    "name": "Middle East Technical University",
+    "state-province": null,
+    "web_pages": ["http://www.metu.edu.tr/"],
+    "alpha_two_code": "TR"
+  }
+]
