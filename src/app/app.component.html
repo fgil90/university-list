@@ -7,9 +7,11 @@
       type="country"
     ></app-selector>
     <app-selector
-      *ngIf="dataHandler.selectedCountry"
+      [update]="dataHandler.setUniversity"
       [options]="dataHandler.universities"
       type="university"
     ></app-selector>
+
+    <app-infocard [universityInfo]="dataHandler.universityInfo"> </app-infocard>
   </form>
 </div>

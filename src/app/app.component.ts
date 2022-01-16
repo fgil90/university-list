@@ -9,7 +9,7 @@ import { DataHandlerService } from './services/data-handler.service';
 export class AppComponent {
   title: string = 'University List';
   dataHandler = new DataHandlerService();
-  selectedCountry: string = 'teste';
+  selectedCountry: string = '';
 
   constructor() {
     this.dataHandler.fetchCountryData();

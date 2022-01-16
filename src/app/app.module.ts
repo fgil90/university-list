@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SelectorComponent } from './components/selector/selector.component';
+import { InfocardComponent } from './components/infocard/infocard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SelectorComponent
+    SelectorComponent,
+    InfocardComponent
   ],
   imports: [
     BrowserModule
