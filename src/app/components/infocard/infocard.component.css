@@ -1,0 +1,10 @@
+.card{
+    height: auto;
+    padding:10px;
+    box-shadow: 5px 5px 15px var(--boxShadowColor);
+    border:none;
+    width:var(--defaultWidth);
+}
+ul{
+    margin:0;
+}

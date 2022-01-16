@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --defaultWidth:250px;
+    --boxShadowColor:rgb(61, 61, 61);
+}
+body{
+    background-color:rgb(220, 220, 220);
+}
+
+@media screen and (min-width:600px) {
+    :root{
+        --defaultWidth:500px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    :root{
+        --defaultWidth:750px;
+    }
+}

@@ -1,5 +1,7 @@
 select{
   padding: 5px;
   margin:5px;
-  width:250px;
+  width:var(--defaultWidth);
+  box-shadow: 5px 5px 15px var(--boxShadowColor);
+  
 }

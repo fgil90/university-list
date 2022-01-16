@@ -13,7 +13,7 @@ export class DataHandlerService {
 
   universityInfo = {
     country: '',
-    domains: ['',''],
+    domains: [''],
     name: '',
     'state-province': '',
     web_pages: [''],

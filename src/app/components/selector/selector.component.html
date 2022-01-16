@@ -1,4 +1,4 @@
-<select (change)="onChange($event)" name="{{type}}" id="{{type}}">
-    <option value="Choose a {{type}}">Choose a {{type}}</option>
-    <option *ngFor="let option of options">{{option}}</option>
+<select class='form-select form-select-lg' (change)="onChange($event)" name="{{type}}" id="{{type}}">
+    <option  value="Choose a {{type}}">Choose a {{type}}</option>
+    <option  *ngFor="let option of options" value={{option}}>{{option}}</option>
 </select>
