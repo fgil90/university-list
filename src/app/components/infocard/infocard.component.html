@@ -4,7 +4,7 @@
     <li><b>Country: </b>{{ universityInfo['country'] }}</li>
     <li><b>Domains: </b> {{ universityInfo['domains'].toString() }}</li>
     <li><b>State/Province:</b> {{ universityInfo['state-province'] }}</li>
-    <li><b>Web-Pages:</b> <a href="{{ universityInfo['web_pages'].toString() }}"> {{ universityInfo['web_pages'].toString() }}</a></li>
+    <li><b>Web-Pages:</b> <a *ngFor="let link of universityInfo['web_pages']" href="{{link}}"> {{ link }}</a></li>
     <li><b>Country Code:</b> {{ universityInfo['alpha_two_code'] }}</li>
   </ul>
 </div>
